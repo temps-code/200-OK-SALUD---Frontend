@@ -1,35 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState, useEffect } from "react";
+import { Routes, Route } from "react-router-dom";
+import Cabeza from "./components/header/Header";
+import Cuerpo from "./components/body/body";
+import Pie from "./components/footer/footer";
+import Splash from "./components/Splash";
+import "leaflet/dist/leaflet.css";
+import Nosotros from "./pages/Nosotros";
+import SolicitarCita from "./pages/SolicitarCita";
+import Login from "./components/login/login";
+import Logout from "./components/login/logout";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [showSplash, setShowSplash] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowSplash(false), 3000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (showSplash) return <Splash onComplete={() => setShowSplash(false)} />;
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="min-h-screen flex flex-col">
+      <Cabeza />
+      <Routes>
+        <Route path="/" element={<Cuerpo />} />
+        <Route path="/paciente" element={<div>Página de paciente</div>} />
+        <Route path="/medico" element={<div>Página de médico</div>} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/solicitarcita" element={<SolicitarCita />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/logout" element={<Logout />} />
+      </Routes>
+      <Pie />
+    </div>
+  );
 }
 
-export default App
+export default App;
