@@ -42,10 +42,9 @@ const Splash = ({ onComplete }: SplashProps) => {
         Bienvenido a 200-OK-SALUD
       </h1>
       <p className="text-white text-lg md:text-xl mt-4 opacity-80 animate-[fadeIn_1.5s_ease-in]">
-        Cuidando tu salud, siempre conectados
+        Cuidando tu salud, siempre conectados las 24 horas
       </p>
 
-      {/* Custom keyframes for animations */}
       <style>{`
         @keyframes heartbeat {
           0%, 100% { transform: scale(1); }

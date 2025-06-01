@@ -1,9 +1,7 @@
-/* Tailwind directives (deben ir primero) */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Tus estilos globales existentes */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -29,8 +27,8 @@ body {
   height: 100%;
   z-index: 0;
 }
-
 /* Fix para iconos de Leaflet */
 .leaflet-default-icon-path {
   background-image: url(https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png);
 }
+@tailwind utilities;
