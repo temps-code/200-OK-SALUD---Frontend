@@ -3,7 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* Tus estilos globales existentes */
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
