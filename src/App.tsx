@@ -9,6 +9,7 @@ import Nosotros from "./pages/Nosotros";
 import SolicitarCita from "./pages/SolicitarCita";
 import Login from "./components/login/login";
 import Logout from "./components/login/logout";
+import UbicacionPostas from "./components/hospitales/ubicacionPostas";
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -31,6 +32,7 @@ function App() {
         <Route path="/solicitarcita" element={<SolicitarCita />} />
         <Route path="/login" element={<Login />} />
         <Route path="/logout" element={<Logout />} />
+        <Route path="/ubicacion-postas" element={<UbicacionPostas />} />
       </Routes>
       <Pie />
     </div>
