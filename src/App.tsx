@@ -1,10 +1,14 @@
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
-import Cabeza from "./components/cabeza/Cabeza";
-import Cuerpo from "./components/cuerpo/Cuerpo";
-import Pie from "./components/pie/Pie";
+import Cabeza from "./components/header/Header";
+import Cuerpo from "./components/body/body";
+import Pie from "./components/footer/footer";
 import Splash from "./components/Splash";
 import "leaflet/dist/leaflet.css";
+import Nosotros from "./pages/Nosotros";
+import SolicitarCita from "./pages/SolicitarCita";
+import Login from "./components/login/login";
+import Logout from "./components/login/logout";
 
 function App() {
   const [showSplash, setShowSplash] = useState(true);
@@ -23,6 +27,10 @@ function App() {
         <Route path="/" element={<Cuerpo />} />
         <Route path="/paciente" element={<div>Página de paciente</div>} />
         <Route path="/medico" element={<div>Página de médico</div>} />
+        <Route path="/nosotros" element={<Nosotros />} />
+        <Route path="/solicitarcita" element={<SolicitarCita />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/logout" element={<Logout />} />
       </Routes>
       <Pie />
     </div>
