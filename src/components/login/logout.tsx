@@ -1,4 +1,3 @@
-// src/components/logout/Logout.tsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import heart from "../../assets/img/logoGrande.png";
@@ -7,8 +6,6 @@ const Logout: React.FC = () => {
   const navigate = useNavigate();
 
   const handleReturn = () => {
-    // Opcionalmente puedes limpiar el storage o estado global
-    // localStorage.removeItem("token"); // si usas auth
     navigate("/login");
   };
 
