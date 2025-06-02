@@ -128,7 +128,7 @@
           "Farmacia",
           "Programas de prevención"
         ],
-        "image": "assets/img/posta_15denoviembre.jpg",
+        "image": "../src/assets/img/fotoPos/posta_15denoviembre.jpg",
         "backgroundColor": "bg-terciario",
         "textColor": "text-black"
       },
@@ -153,7 +153,7 @@
           "Laboratorio clínico",
           "Farmacia"
         ],
-        "image": "assets/img/posta_3demayo.jpg",
+        "image": "../src/assets/img/fotoPos/posta_3demayo.jpg",
         "backgroundColor": "bg-secondary",
         "textColor": "text-white"
       },
@@ -206,7 +206,7 @@
           "Farmacia",
           "Programas de prevención"
         ],
-        "image": "assets/img/posta_aranjuez.jpg",
+        "image": "../src/assets/img/fotoPos/posta_aranjuez.jpg",
         "backgroundColor": "bg-terciario",
         "textColor": "text-black"
       },
@@ -411,7 +411,7 @@
           "Vacunación",
           "Farmacia"
         ],
-        "image": "assets/img/posta_guadalquivir.jpg",
+        "image": "../src/assets/img/fotoPos/posta_guadalquivir.jpg",
         "backgroundColor": "bg-terciario",
         "textColor": "text-black"
       },
@@ -732,7 +732,7 @@
           "Vacunación",
           "Farmacia"
         ],
-        "image": "assets/img/posta_tabladita.jpg",
+        "image": "../src/assets/img/fotoPos/posta_tabladita.jpg",
         "backgroundColor": "bg-terciario",
         "textColor": "text-black"
       },
@@ -787,7 +787,7 @@
           "Vacunación",
           "Farmacia"
         ],
-        "image": "assets/img/posta_villaavaroa.jpg",
+        "image": "../src/assets/img/fotoPos/posta_villaavaroa.jpg",
         "backgroundColor": "bg-secondary",
         "textColor": "text-white"
       },
