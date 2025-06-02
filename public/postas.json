@@ -1,0 +1,822 @@
+{
+    "postas": [
+      {
+        "name": "EL PRADO",
+        "address": "Av. Las Americas e/ calle venezuela y Av. San Geronimo",
+        "coordinates": {
+          "lat": "-21.995633592871982",
+          "lng": "-63.67837299347738"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Odontología"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Atención de emergencias",
+          "Laboratorio clínico"
+        ],
+        "image": "assets/img/posta_prado.jpeg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "LA GRAMPA",
+        "address": "Calle Principal N° 123, Zona Central, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.932177709175775",
+          "lng": "-63.6436727041667758"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Odontología",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Atención de emergencias",
+          "Laboratorio clínico",
+          "Farmacia",
+          "Programas de prevención"
+        ],
+        "image": "assets/img/posta_grampa.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "POCITOS",
+        "address": "calle chuquisaca entre oruro y peatonal potosi, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-22.048983629393238" ,
+          "lng": "-63.680889084943725"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría"
+        ],
+        "services": [
+          "Consultas generales",
+          "Laboratorio clínico",
+          "Farmacia",
+          "Programas de prevención"
+        ],
+        "image": "assets/img/posta_3demayo.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "EL PORVENIR",
+        "address": "Barrio Porvenir, calle avaroa1 - esquina calle 16, distrito 4, Yacuiba, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.997137111569604",
+          "lng": "-63.671988827482513"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia",
+          "Atención de emergencias"
+        ],
+        "image": "assets/img/posta_porvenir.jpeg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "15 DE NOVIEMBRE",
+        "address": "AV.PANAMERICANO FRENTE AL MERCADO CAMPESINO, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.518998778172783" ,
+          "lng": "-64.74448265782749"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Farmacia",
+          "Programas de prevención"
+        ],
+        "image": "assets/img/posta_15denoviembre.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "3 DE MAYO",
+        "address": "Barrio 3 de mayo calle Regimiento Warnes entre Rimoteo Rana y Rgto Montes, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.51435244665741" ,
+          "lng": "-64.734168462043575"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría"
+        ],
+        "services": [
+          "Consultas generales",
+          "Laboratorio clínico",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_3demayo.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "ALTO ESPANA",
+        "address": "a lado iglesia espana sud, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.383217052170018" ,
+          "lng": "-64.43338245959882"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría"
+        ],
+        "services": [
+          "Consultas generales",
+          "Laboratorio clínico",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_altoespaña.webp",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "ARANJUEZ",
+        "address": "avenida los parrales, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.52562496233499" ,
+          "lng": "-64.75204100112444"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Enfermería",
+          "Odontología"
+        ],
+        "services": [
+          "Consultas generales",
+          "Laboratorio clínico",
+          "Farmacia",
+          "Programas de prevención"
+        ],
+        "image": "assets/img/posta_aranjuez.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "BRIGADA MOVIL DE SALUD MUNICIPAL",
+        "address": "Edificio Palacio Del Deporte-Av/Victor Paz, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.78787087087087",
+          "lng": "-64.72863459452785"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría"
+        ],
+        "services": [
+          "Consultas generales",
+          "Farmacia",
+          "Programas de prevención"
+        ],
+        "image": "assets/img/posta_brigada.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "CENTRO MUNICIPAL DE HEMODIALISIS SAN ANDRES",
+        "address": "comunidad san andres frente de la palza a lado del colegio pedro rivera, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.62157493798184" ,
+          "lng": "-64.8172984521434"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Unidad de Hemodialisis"
+        ],
+        "services": [
+          "Consultas generales",
+          "Farmacia",
+          "Programas de prevención",
+          "Servicio de dialisis"
+        ],
+        "image": "assets/img/posta_sanandres.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "CENTRO PLATAFORMA CHAGAS TARIJA",
+        "address": "Calle Espana esquina pasaje California, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.545203487049733" ,
+          "lng": "-64.72385485038468"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina"
+        ],
+        "services": [
+          "Diagnóstico de la enfermedad Chagas",
+          "Farmacia",
+          "Programas de prevención"
+        ],
+        "image": "assets/img/posta_plataformadechagas.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "CIENEGUILLAS",
+        "address": "cieneguillas, frente a la tienda comunal, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.368633833316025" ,
+          "lng": "-65.03370963854206"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Farmacia",
+          "Vacunación",
+          "Programas de prevención"
+        ],
+        "image": "assets/img/posta_cieneguilla.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "EL CONSTRUCTOR",
+        "address": "AV. Luis Espinal Y AV. Aguairenda, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.522532798576147",
+          "lng": "-64.71298979847502"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Farmacia",
+          "Programas de prevención",
+          "Vacunación"
+        ],
+        "image": "assets/img/posta_constructor.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "GAMONEDA",
+        "address": "Comunidad Gamoneda cerca de la Iglesia, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.54073434008273" ,
+          "lng": "-64.72863459452785"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría"
+        ],
+        "services": [
+          "Consultas generales",
+          "Farmacia",
+          "Programas de prevención"
+        ],
+        "image": "assets/img/posta_sanandres.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "SAN JUAN",
+        "address": "Calle 6 de Junio Psj Alvarado, Zona San Juan XXII, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.539015",
+          "lng": "-64.714193"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación"
+        ],
+        "image": "assets/img/posta_sanjuan.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-primary"
+      },
+      {
+        "name": "GUADALQUIVIR",
+        "address": "av. circunvalacion y panamericana s/n, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.510653032984077",
+          "lng": "-64.74725807579934"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Odontologia",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_guadalquivir.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "GUERRAHUAYCO",
+        "address": "Comunidad Guerrahuayco Carretera a San Andres pasando el puente, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.58890208669578",
+          "lng": "-64.81119606771209"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Odontologia",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_guerrahuayco.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "JULIO ZUARES",
+        "address": "Isco Moreno y Jorge Echazu s/n, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.518575594241067",
+          "lng": "-64.73613575767206"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/postas_juliosuarez.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "LA PINTADA",
+        "address": "Carretera al Valle km 13, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.60787910912024",
+          "lng": "-64.6415695032488"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_lapintada.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "NESTOR PAZ ZAMORA",
+        "address": "calle Pedro Lozano Entre av. los molles, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.535206962284285",
+          "lng": "-64.7514558"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Odontologia",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_sanjuan.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "PALMARCITO",
+        "address": "Calle Jose Electo Dias/AV.M.Quiroga S, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.530844",
+          "lng": "-64.711292"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Odontologia",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_palmarcito.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "SAN BLASS",
+        "address": "comunidad san Blass a lado de la escuela, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.56300896538342",
+          "lng": "-64.71839586029868"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_sanblass.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "SAN JORGE",
+        "address": "Calle Julio la Faye, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.552540468005567",
+          "lng": "-64.69608731448449"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Odontologia",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_sanjorge.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "SAN LUIS",
+        "address": "B/ San Luis/ urbanizacion Oller final, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.564855198569198",
+          "lng": "-64.70603067116383"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_sanluis.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "SANTA ANA",
+        "address": "comunidad de Santa Ana La Nueva a lado de la iglesia, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.54127508234609",
+          "lng": "-64.58021385872291"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/postas_santaana.webp",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "SEDES - EPIDEMIOLOGIA",
+        "address": "Av.Potosí 543, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.531872618493544",
+          "lng": "-64.72728716188495"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia",
+          "Laboratorio clínico"
+        ],
+        "image": "assets/img/postas_sedesepistemologia.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "SELLA - CERCADO",
+        "address": "FINAL CALLE COLON ENTRADA A LA COMUNIDAD DE SELLA CERCADO, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.393536068055987",
+          "lng": " -64.69527784507537"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/postas_sellacercado.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "TABLADITA",
+        "address": "Barrio Luis de Fuentes. Av. Julio Arce - Av. Los Ceibos, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.539443321711676",
+          "lng": "-64.7452863720143"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_tabladita.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      },
+      {
+        "name": "TOLOMOSA",
+        "address": "Comunidad Tolomosa frente a la iglesia, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.62864765783672",
+          "lng": "-64.7755680153264"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Odontologia",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_tolomosa.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "VILLA AVAROA",
+        "address": "C/ Av. Circumbalacion Esq. C/ Calama Y Ballivian, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.51676749275079",
+          "lng": "-64.7306864728312"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_villaavaroa.jpg",
+        "backgroundColor": "bg-secondary",
+        "textColor": "text-white"
+      },
+      {
+        "name": "VILLA BUSH",
+        "address": "Pasaje Pedro Rivera, Tarija, Bolivia",
+        "coordinates": {
+          "lat": "-21.54426475492506",
+          "lng": " -64.73328295780729"
+        },
+        "hours": [
+          "Lunes a Viernes: 8:00 AM - 4:00 PM",
+          "Sábado: 9:00 AM - 1:00 PM",
+          "Domingo: Cerrado"
+        ],
+        "specialties": [
+          "Medicina General",
+          "Pediatría",
+          "Laboratorio",
+          "Enfermería"
+        ],
+        "services": [
+          "Consultas generales",
+          "Vacunación",
+          "Farmacia"
+        ],
+        "image": "assets/img/posta_villabusch.jpg",
+        "backgroundColor": "bg-terciario",
+        "textColor": "text-black"
+      }
+    ]
+  }
