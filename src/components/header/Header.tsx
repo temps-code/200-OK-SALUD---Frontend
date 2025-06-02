@@ -41,7 +41,7 @@ const Header: React.FC = () => {
               <FiSearch size={22} />
             </Link>
             <Link
-              to="/mapa"
+              to="/ubicacion-postas"
               title="Ver mapa"
               className="p-2 rounded-md hover:bg-teal-500/40 transition-colors duration-300"
             >
