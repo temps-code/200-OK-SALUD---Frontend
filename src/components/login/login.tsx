@@ -8,21 +8,19 @@ const Login: React.FC = () => {
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
 
-  const navigate = useNavigate(); // 👈 Hook para navegación
+  const navigate = useNavigate();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     alert(`Intentando iniciar sesión con\nEmail: ${email}\nPassword: ${password}`);
-    // Aquí podrías agregar lógica real de login y redirigir, por ejemplo:
-    // navigate("/dashboard");
   };
 
   const goToRecover = () => {
-    navigate("/recuperar"); // 👈 Ir a la página de recuperación
+    navigate("/recuperar"); 
   };
 
   const goToRegister = () => {
-    navigate("/registro"); // 👈 Ir a la página de registro
+    navigate("/registro");
   };
 
   return (
