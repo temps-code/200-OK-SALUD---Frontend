@@ -4,9 +4,10 @@ import { FiEye, FiEyeOff } from "react-icons/fi";
 import heart from "../../assets/img/logoGrande.png";
 import { useAuth } from "../../context/AuthContext";
 
-    // Para iniciar sesion solo usar las palabras "enfermero" o "medico"
-    // por ejemplo rosa.enfermero@gmail.com o rosa.medico@gmail.com
-    // y en contraseña cualquier por ejemplo 123 para ambos casos
+// Para iniciar sesión solo usar los correos con "enfermero" o "medico"
+// Ej: rosa.enfermero@gmail.com o rosa.medico@gmail.com
+// Contraseña: cualquier valor como "123" para ambos casos
+
 const Login: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

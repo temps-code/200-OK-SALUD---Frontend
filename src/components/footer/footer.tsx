@@ -2,24 +2,22 @@ import React, { useState } from "react";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import L from "leaflet";
 import TermsModal from "../modal/TermsModal";
-import projectLogo from "../../assets/img/logoGrande.png";
 
-const logoIcon = L.icon({
-  iconUrl: projectLogo,
-  iconRetinaUrl: projectLogo,
-  shadowUrl: "",
-  iconSize: [40, 40],
-  iconAnchor: [20, 40],
-  popupAnchor: [0, -35],
-  shadowSize: [0, 0],
+const defaultIcon = L.icon({
+  iconUrl: "/leaflet/marker-icon.png",
+  iconRetinaUrl: "/leaflet/marker-icon-2x.png",
+  shadowUrl: "/leaflet/marker-shadow.png",
+  iconSize: [25, 41],
+  iconAnchor: [12, 41],
+  popupAnchor: [1, -34],
+  shadowSize: [41, 41],
 });
 
 const Footer: React.FC = () => {
   const [showModal, setShowModal] = useState(false);
-
-  // Coordenadas exactas para centrar y marcar
   const center: [number, number] = [-21.536995492345827, -64.74175682698466];
   const officeLocation: [number, number] = [-21.536995492345827, -64.74175682698466];
+
 
   return (
     <footer className="bg-teal-900 text-white w-full">
@@ -34,26 +32,26 @@ const Footer: React.FC = () => {
           <div className="text-xs text-teal-400">
             Desarrollado por Abraham, Damaris, Diego, Paola y Yordy.
           </div>
+        </div>
           <button
             onClick={() => setShowModal(true)}
             className="mt-2 text-xs underline text-teal-200 hover:text-teal-100"
           >
             📄 Términos y Condiciones
           </button>
-        </div>
-
-        {/* Sección: Mapa centrado en la ubicación exacta */}
+        {/* Sección: Mapa */}
         <div className="h-56 rounded shadow-lg overflow-hidden">
-          <MapContainer center={center} zoom={15} style={{ height: "100%", width: "100%" }}>
+          <MapContainer center={center} zoom={10} style={{ height: "100%", width: "100%" }}>
             <TileLayer
               attribution="&copy; OpenStreetMap contributors"
               url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-            <Marker position={officeLocation} icon={logoIcon}>
+            <Marker position={officeLocation} icon={defaultIcon}>
               <Popup>
                 <div className="p-2 text-black">
                   <h3 className="font-semibold">Nuestra Oficina</h3>
-                  <p>Ubicación exacta encontrada en Tarija</p>
+                  <p>Calle Falsa 123, Tarija</p>
+                  <p>Ven a visitarnos aquí</p>
                 </div>
               </Popup>
             </Marker>
@@ -70,9 +68,10 @@ const Footer: React.FC = () => {
             <a href="#" className="hover:text-teal-300">📘 Facebook</a>
           </div>
         </div>
+
       </div>
 
-      {/* Modal de Términos */}
+      {/* Modal */}
       {showModal && (
         <TermsModal isOpen={true} onClose={() => setShowModal(false)} />
       )}
