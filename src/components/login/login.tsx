@@ -2,27 +2,35 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 import heart from "../../assets/img/logoGrande.png";
+import { useAuth } from "../../context/AuthContext";
 
+    // Para iniciar sesion solo usar las palabras "enfermero" o "medico"
+    // por ejemplo rosa.enfermero@gmail.com o rosa.medico@gmail.com
+    // y en contraseña cualquier por ejemplo 123 para ambos casos
 const Login: React.FC = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
-
-  const navigate = useNavigate(); // 👈 Hook para navegación
+  const navigate = useNavigate();
+  const { setRol } = useAuth();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    alert(`Intentando iniciar sesión con\nEmail: ${email}\nPassword: ${password}`);
-    // Aquí podrías agregar lógica real de login y redirigir, por ejemplo:
-    // navigate("/dashboard");
-  };
 
-  const goToRecover = () => {
-    navigate("/recuperar"); // 👈 Ir a la página de recuperación
+    // Simulación simple de login por tipo de usuario
+    if (email.includes("medico")) {
+      setRol("medico");
+      navigate("/medico");
+    } else if (email.includes("enfermero")) {
+      setRol("enfermero");
+      navigate("/paciente");
+    } else {
+      alert("Usuario no reconocido. Usa un email que contenga 'medico' o 'enfermero'.");
+    }
   };
 
   const goToRegister = () => {
-    navigate("/registro"); // 👈 Ir a la página de registro
+    navigate("/registro");
   };
 
   return (
